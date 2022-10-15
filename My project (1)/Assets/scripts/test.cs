@@ -21,8 +21,17 @@ public class test : MonoBehaviour
         string villanPower = "none";
 
         int ageDiffrence = villanAge - heroAge;
-
+        print("The hero height is " + heroHeight + " & the villan height is " + villanHeight);
+        
         print("The age diffrence is huge " + ageDiffrence + " years to be exact");
+       
+        print("The people are fighting are " + heroName+" & " + villanName);
+
+        print("The hero age is " + heroAge + " years old and the villan is " + villanAge);
+
+        print("The hero power is " + heroPower + " And the villan power is " + villanPower);
+
+
     }
 
     // Update is called once per frame
